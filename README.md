@@ -14,8 +14,9 @@ to a good level.
     BITWISE OPERATORS
 ------------------------------
 
-1) Bitwise AND :-  If both bits in the compared position of the bit patterns are 1, the bit in the resulting bit pattern is 1, otherwise 0.     
+1) Bitwise AND :-       
    -----------
+   If both bits in the compared position of the bit patterns are 1, the bit in the resulting bit pattern is 1, otherwise 0.
    Ex:- A = 5, B = 3
      
    Binary Representations of A and B are 101 and 011                                                   
@@ -27,8 +28,9 @@ to a good level.
           0  0  1   => 1
         -----------
 
-2) Bitwise OR:-  If both bits in the compared position of the bit patterns are 0, the bit in the resulting bit pattern is 0, otherwise 1.
+2) Bitwise OR:- 
    ----------
+   If both bits in the compared position of the bit patterns are 0, the bit in the resulting bit pattern is 0, otherwise 1.
    Ex:- A = 5, B = 3
 
    Binary Representations of A and B are 101 and 011
@@ -39,8 +41,9 @@ to a good level.
         -----------
           1  1  1   => 7
         -----------
-3) Bitwise XOR:- If both bits in the compared position of the bit patterns are 0 or 1, the bit in the resulting bit pattern is 0, otherwise 1.
+3) Bitwise XOR:-
    -----------
+   If both bits in the compared position of the bit patterns are 0 or 1, the bit in the resulting bit pattern is 0, otherwise 1.
    Ex:- A = 5, B = 3
 
    Binary Representations of A and B are 101 and 011
@@ -52,15 +55,20 @@ to a good level.
           1  1  0    => 6
         -----------
 
-4) Bitwise NOT:- if the ith bit is 0, it will change it to 1 and vice versa. Bitwise NOT is nothing but simply the one’s complement of a number.
+4) Bitwise NOT:- 
    -----------
+   if the ith bit is 0, it will change it to 1 and vice versa. Bitwise NOT is nothing but simply the one’s complement of a number.
    Ex:- A = 5 (Binary is, 101)  =>   ~A = 010 (decimal is, 2)
 
-5) Bitwise Left shift:-  Left shift operator is a binary operator which shift the some number of bits, in the given bit pattern, to the left and append 0 at the end.
-   -------------------   Left shift is equivalent to multiplying the bit pattern with  2 to the power k (2^k, if we are shifting k bits ).
+5) Bitwise Left shift:-  
+   -------------------   
+   Left shift operator is a binary operator which shift the some number of bits, in the given bit pattern, to the left and append 0 at the end.
+   Left shift is equivalent to multiplying the bit pattern with  2 to the power k (2^k, if we are shifting k bits ).
 
-6) Bitwise Right shift:-  Right shift operator is a binary operator which shift the some number of bits, in the given bit pattern, to the right and append 1 at the end.
-   --------------------   Right shift is equivalent to dividing the bit pattern with 2//k ( if we are shifting k bits ).
+6) Bitwise Right shift:-  
+   --------------------   
+   Right shift operator is a binary operator which shift the some number of bits, in the given bit pattern, to the right and append 1 at the end.
+   Right shift is equivalent to dividing the bit pattern with 2//k ( if we are shifting k bits ).
 
 NOTE :- Bitwise AND, OR and XOR takes equal length bit patterns.
 
