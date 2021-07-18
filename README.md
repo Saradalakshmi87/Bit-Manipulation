@@ -11,7 +11,7 @@ Operations with bits are used in Data compression (data is compressed by convert
 In order to encode, decode or compress files we have to extract the data at bit level. Bitwise Operations are faster and closer to the system and sometimes optimize the program
 to a good level.
 
-    BITWISE OPERATORS
+.    BITWISE OPERATORS
 ------------------------------
 
 1) Bitwise AND :-       
@@ -72,8 +72,8 @@ to a good level.
 
 NOTE :- Bitwise AND, OR and XOR takes equal length bit patterns.
 
-    BASIC KNOWLEDGE
---------------------------
+ .   BASIC KNOWLEDGE
+ --------------------------
 
   i) a & 0  = 0                                  i)  a | 0  = a                                     i) a ^ 0  = a
 
