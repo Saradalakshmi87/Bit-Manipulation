@@ -1,6 +1,7 @@
 # Bit-Manipulation
 
 '''
+
 Working on bytes, or data types comprising of bytes like ints, floats, doubles or even data structures which stores large amount of bytes is normal for a programmer.
 
 In some cases, a programmer needs to go beyond this - that is to say that in a deeper level where the importance of bits is realized.
