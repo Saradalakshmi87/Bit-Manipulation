@@ -88,10 +88,6 @@ iii) a & 1  => ({1 , if odd},{0 , if even })    iii)  a | 1  => ({a , if odd},{a
 
  When we check the bit of a number, if it is 1 then it is called set bit. Otherwise, it is called as unset bit.
  
- Ex:-  5 (    1             0                 1     )
-          . 2nd bit      1st bit            0th bit
-         . (set bit)    (unset bit)        (set bit)
- 
   MSB and LSB bits :-
 --------------------
 
