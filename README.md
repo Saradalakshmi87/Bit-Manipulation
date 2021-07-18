@@ -82,9 +82,10 @@ NOTE :- Bitwise AND, OR and XOR takes equal length bit patterns.
 iii) a & 1  => ({1 , if odd},{0 , if even })    iii)  a | 1  => ({a , if odd},{a+1 , if even})     iii) a ^ 1  => ({a-1 , if odd},{a+1 , if even})             
 
 
-. WHAT IS SET BIT AND UNSET BIT ??
+ WHAT IS SET BIT AND UNSET BIT ??
+---------------------------------
 
--> When we check the bit of a number, if it is 1 then it is called set bit. Otherwise, it is called as unset bit.
+ When we check the bit of a number, if it is 1 then it is called set bit. Otherwise, it is called as unset bit.
                                                  
 '''
 
