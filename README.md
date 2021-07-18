@@ -72,5 +72,18 @@ to a good level.
 
 NOTE :- Bitwise AND, OR and XOR takes equal length bit patterns.
 
+    BASIC KNOWLEDGE
+--------------------------
+
+  i) a & 0  = 0                     i)  a | 0  = a                     i) a ^ 0  = a
+
+ ii) a & a  = a                     ii) a | a  = a                    ii) a ^ a   = 0
+           
+           / 1 , if odd                       / a , if odd                      / (a - 1) , if odd
+iii) a & 1                         iii) a | 1                        iii) a ^ 1 
+           \ 0 , if even                      \ (a + 1) , if even               \ (a + 1) , if even
+           
+
+
 '''
 
