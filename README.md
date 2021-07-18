@@ -86,6 +86,15 @@ iii) a & 1  => ({1 , if odd},{0 , if even })    iii)  a | 1  => ({a , if odd},{a
 ---------------------------------
 
  When we check the bit of a number, if it is 1 then it is called set bit. Otherwise, it is called as unset bit.
+ 
+  MSB and LSB bits :-
+--------------------
+
+In a digital data bit string, the MSB is a bit of the highest digit, and the LSB is a bit of the lowest digit.
+
+ex:-  99 in the decimal system is expressed as (MSB)01100011(LSB) in the binary system. In this case, the MSB is 0 and the LSB is 1.
+           
+
                                                  
 '''
 
